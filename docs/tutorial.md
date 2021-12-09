@@ -166,7 +166,7 @@ This particular model's only geometry sequence
 >>> model.geometries()
 ['geometry']
 ```
-is set up to depend on that very value. So it will effectively change
+is set up to depend on that vary value. So it will effectively change
 the next time it is rebuilt. This will happen automatically once we
 solve the model. But we may also trigger the geometry rebuild right
 away.
